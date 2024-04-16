@@ -1,0 +1,66 @@
+.head-questions {
+  grid-area: head-q;
+}
+.head-points {
+  grid-area: head-p;
+}
+.first-que {
+  grid-area: first-q;
+}
+.first-100 {
+  grid-area: first-q-100;
+}
+.first-200 {
+  grid-area: first-q-200;
+}
+.first-300 {
+  grid-area: first-q-300;
+}
+.first-400 {
+  grid-area: first-q-400;
+}
+.second-que {
+  grid-area: second-q;
+}
+.second-100 {
+  grid-area: second-q-100;
+}
+.second-200 {
+  grid-area: second-q-200;
+}
+.second-300 {
+  grid-area: second-q-300;
+}
+.second-400 {
+  grid-area: second-q-400;
+}
+.third-que {
+  grid-area: third-q;
+}
+.third-100 {
+  grid-area: third-q-100;
+}
+.third-200 {
+  grid-area: third-q-200;
+}
+.third-300 {
+  grid-area: third-q-300;
+}
+.third-400 {
+  grid-area: third-q-400;
+}
+.fourth-que {
+  grid-area: fourth-q;
+}
+.fourth-100 {
+  grid-area: fourth-q-100;
+}
+.fourth-200 {
+  grid-area: fourth-q-200;
+}
+.fourth-300 {
+  grid-area: fourth-q-300;
+}
+.fourth-400 {
+  grid-area: fourth-q-400;
+}

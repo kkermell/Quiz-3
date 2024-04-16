@@ -1,0 +1,71 @@
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  inline-size: 100vw;
+  block-size: 100vh;
+  padding: 15vh 15vw;
+  transition: visibility 0s 0.3s, opacity 0.3s;
+}
+
+.modal-is-opened {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.6s;
+}
+
+.modal-content {
+  inline-size: 100%;
+  block-size: 100%;
+  background-color: #000000;
+  padding: 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: 
+  "cat cat"
+  "que que"
+  "que que"
+  "back answer";
+}
+
+.head-question-point {
+  grid-area: cat;
+}
+
+.question-answer {
+  grid-area: que;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline: 10px;
+}
+
+.question-answer p {
+  padding: 0;
+  margin: 0;
+}
+
+.back {
+  grid-area: back;
+}
+
+.show-answer {
+  grid-area: answer;
+}
+
+.vopros {
+  text-align: center;
+}
+
+.otvet {
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: center;
+}
+
+.otvet-is-opened {
+  opacity: 1;
+}
